@@ -22,7 +22,7 @@ td {
 .box {
     width: 80px;
     height: 70px;
-    background-color: #FF5733;
+    /* background-color: #FF5733; */
     color: white;
     line-height: 80px;
     font-weight: bold;
@@ -36,3 +36,30 @@ td {
     background-color: #FFA500;
     cursor: grabbing;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #action{
+    width: 20%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Active (pressed) state */
+  button:active {
+    background-color: #d3d3d3;
+  }
